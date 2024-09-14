@@ -1,0 +1,42 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+.cart_box{
+    box-sizing: border-box;
+    width: 40%;
+    height: 50%;
+    border: 4px solid rgb(48, 141, 203);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+span{
+    color: rgb(103,103,103);
+}
+input{
+    padding: 10px;
+}
+button{
+    background-color:rgb(53, 162, 219);
+    color: white;
+    border: none;
+    padding: 11px 30px;
+}
+div{
+    border: 1px  solid rgb(131, 135, 138);
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
